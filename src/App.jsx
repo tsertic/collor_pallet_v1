@@ -8,7 +8,7 @@ import Palette from "./Palette";
 function App() {
   return (
     <div>
-      <Palette palette={seedColors[5]} />
+      <Palette palette={...seedColors[4]} />
     </div>
   );
 }
